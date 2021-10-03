@@ -1,0 +1,81 @@
+@import "variables";
+@import "./src/styles/bootstrap/scss/bootstrap";
+
+/* 
+ Configuration
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "utilities";
+
+Layout & components
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "containers";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "accordion";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "alert";
+@import "progress";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "offcanvas";
+@import "placeholders";
+*/
+
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  background-color: $body-background;
+}
+
+.card {
+  position: relative;
+  margin-bottom: $card-spacer-y;
+  border: $card-border-width solid $card-border-color;
+  background-color: $card-background-color;
+  color: green;
+  @include border-radius($card-border-radius);
+}
+
+.nav_link {
+  color: #b00000;
+  font-size: 12pt;
+}
+
+.homepagePetCardImage {
+  padding-top: 5%;
+  padding-bottom: 2%;
+  width: 18rem;
+  height: 15rem;
+  object-fit: cover;
+}
+
+.homepagePetCard {
+  width: 20rem;
+  height: 26rem;
+}
+
+h1 {
+  font-size: 12pt;
+}

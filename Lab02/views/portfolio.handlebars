@@ -1,0 +1,58 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-3">
+            {{#each portfolioData}}
+            <a class="nav_link" href="#card-{{this.index}}">{{this.title}}</a><br />
+            {{/each}}
+        </div>
+        <div class="col-sm-12 col-md-8 col-lg-9">
+            <div class="row">
+                {{#each portfolioData}}
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card text-center homepagePetCard" id="card-{{this.index}}" style="width: 18rem;">
+                        <img class="card-img-top homepagePetCardImage" src="/public/images/{{this.image}}"
+                            alt="{{this.image}}">
+                        <div class="card-body">
+                            <h1 class="card-title">{{this.title}}</h1>
+                            <p class="card-text">{{this.breifDescription}}</p>
+                            <div class="container">
+
+
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#myModal-{{this.index}}">
+                                    Know more!!
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="myModal-{{this.index}}" tabindex="-1">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h2 class="modal-title" id="modalLabel-{{this.index}}">
+                                                    {{this.title}}</h2>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>{{this.modalDescription}}</p>
+                                                <p>{{this.modalSales}}</p>
+                                                <p>{{this.modalRating}}</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</div>
