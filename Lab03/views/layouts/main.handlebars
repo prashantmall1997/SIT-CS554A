@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>{{title}}</title>
+
+  <link rel="stylesheet" href="/public/site.css" />
+</head>
+
+<body>
+  <main>
+    <form id="form" method="POST" action="/search">
+      <label for="showInput">Search Show:</label><br />
+      <input type="text" id="showInput" name="searchTerm" /><br />
+      <input id="button" type="submit" value="Submit" />
+    </form>
+    {{{body}}}
+  </main>
+  <footer>
+    <a id="home" href="/">GoTo Homepage/Reload Homepage</a>
+  </footer>
+</body>
+
+</html>

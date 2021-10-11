@@ -1,0 +1,108 @@
+body {
+  background-color: rgba(117, 190, 218, 0.5);
+}
+
+#homeHeading {
+  font: small-caps bold 75px/1 sans-serif;
+  text-align: center;
+  font-size: 6em;
+  margin-bottom: 5;
+  color: rgb(8, 18, 102);
+}
+
+#homeDescription {
+  font: caption;
+  text-align: center;
+  font-weight: normal;
+  font-size: 2em;
+  margin: 0% 10% 3% 10%;
+}
+
+#form {
+  font: caption;
+  text-align: center;
+  font-weight: normal;
+  font-size: 2em;
+  margin: 0% 10% 10% 10%;
+}
+
+input {
+  width: 25%;
+  height: 35px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+#button {
+  background: #0066a2;
+  margin-top: 15px;
+  color: white;
+  border-style: outset;
+  height: 50px;
+  width: 100px;
+  font: 15px sans-serif;
+}
+
+#showListHeading {
+  font: small bold 75px/1 sans-serif;
+  text-align: left;
+  font-size: 3em;
+  margin-bottom: 0;
+  color: rgb(8, 18, 102);
+}
+
+#searchTerm {
+  font: small 75px/1 sans-serif;
+  font-style: italic;
+  text-align: left;
+  font-size: 1.5em;
+  margin-bottom: 5;
+  color: rgb(0, 0, 0);
+}
+
+ul {
+  list-style-type: square;
+  list-style-position: outside;
+  list-style-image: none;
+}
+
+a {
+  font-size: 1.5em;
+}
+
+#home {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  font: small-caps bold 50px/1 sans-serif;
+}
+
+#showTitle {
+  font: small-caps bold 75px/1 sans-serif;
+  text-align: center;
+  font-size: 4em;
+  margin-bottom: 5;
+  color: rgb(8, 18, 102);
+}
+
+#poster {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  box-align: center;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+dl {
+  font: 1rem "Fira Sans", sans-serif;
+  border: 3px solid rgb(138, 117, 255);
+}
+
+dt {
+  font: small-caps bold 2rem "Fira Sans", sans-serif;
+}
