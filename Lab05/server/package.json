@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Prashant Pramodkumar Mall",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource-rest": "^3.4.0",
+    "apollo-server": "^3.5.0",
+    "bluebird": "^3.7.2",
+    "client": "^0.0.1",
+    "dotenv": "^10.0.0",
+    "graphql": "^15.7.2",
+    "redis": "^3.1.2",
+    "uuid": "^8.3.2"
+  }
+}
