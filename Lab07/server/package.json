@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server for Pokémon App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "devStart": "nodemon app.js"
+  },
+  "author": "Prashant Mall 10459371",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "bluebird": "^3.7.2",
+    "node-redis": "^0.1.7",
+    "redis": "^3.1.2"
+  }
+}
